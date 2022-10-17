@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adi H</title>
+</head>
+<body>
+
+    <center>
+        <img id="bannerImage" src="1.jpg" width="512" height="512" style="border-radius: 0px 24px 24px 0px" onclick="changeImage('2.jpg')" />
+    </center>
+    
+    <script>
+        function changeImage(proba_tehnic) {
+            let img = document.querySelector("#bannerImage");
+            img.setAttribute("src", proba_tehnic);
+        }
+    </script>
+</body>
+</html>
